@@ -1,5 +1,20 @@
 # Vue - code along - the-basics
 
+- initiera Vue instans
+- property el: `el: '#vue-container'`
+- Skriva variabler så som i Laravel: `{{ message }}`
+- v-bind: `v-bind:class="activeClass"` (`.completed`)
+- v-if: `v-if="showMe"`
+    - I've got so much to do!
+    - Eat breakfast
+    - Go to school
+    - Learn to code
+    - Play videogames
+    - Sleep
+    - Repeat
+- v-for `v-for="todo in todos"`
+- 
+
 Vi börjar med att hämta in vue via en cdn och jag tar här unpkg.com
 ```html
 <script src="https://unpkg.com/vue"></script>
