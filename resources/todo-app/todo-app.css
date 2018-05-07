@@ -13,7 +13,8 @@ body {
     font-size: 20px; // easier to read
     line-height: 32px;
 }
-#vue-container{
+#vue-container,
+#app{
     width:100%;
     max-width: 600px;
     margin-top: 20px;
