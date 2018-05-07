@@ -13,6 +13,14 @@
     - Sleep
     - Repeat
 - v-for `v-for="todo in todos"`
+- v-on:click="t.completed = !t.completed"
+- `class="todo-list"`
+- todos.filter(t => t.completed)
+- computed property (`completedTodos`/`uncompletedTodos`) 
+- empty-placeholder if `uncompletedTodos.lengt == 0` `li.empty-placeholder` `Du har inga tasks <small>njut så länge det varar!</small>`
+- (v-model) input fält ny todo `<li><input type="text" placeholder=""></li>`
+- (methods) Lägg till todo 
+- v-on:key.enter="addTodo"
 - 
 
 Vi börjar med att hämta in vue via en cdn och jag tar här unpkg.com
