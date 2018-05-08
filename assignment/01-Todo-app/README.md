@@ -1,4 +1,4 @@
-# 100 - Twitter with VueJS
+# 100 - Todo-app with VueJS
 ![Todo](http://dobloit.se/images/workshop-yrgo/todo.png)
 
 In this assignment you will be creating your own little Todo app. The HTML and CSS is provided for you, what is left to do is to sugarcoat the HTML with some powerful and descriptive VueJS.
