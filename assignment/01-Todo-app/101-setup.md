@@ -26,7 +26,7 @@ Previous: [100 Intro](./README.md)
 ```html
 <script src="https://unpkg.com/vue"></script>
 ```
-5. Add a Vue instance, add it add within a `<script></script>` section after the `unpkg`-script. [Read more about the vue instance](https://vuejs.org/v2/guide/instance.html)
+5. Add a Vue instance below the import of the vue source. Add it add within a `<script></script>` section after the `unpkg`-script. [Read more about the vue instance](https://vuejs.org/v2/guide/instance.html)
 ```html
 <script>
     var app = new Vue({
