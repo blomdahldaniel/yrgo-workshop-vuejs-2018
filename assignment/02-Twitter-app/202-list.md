@@ -14,7 +14,7 @@ Begin with cleaning up the `App.vue` file. The whole file should look look like 
 <script>
 
 export default {
-  name: 'app',
+  name: 'app'
 }
 </script>
 

@@ -16,9 +16,10 @@ npm install -g @vue/cli #this is beta version - bcause we are hard core
 ```
 vue create twitter-app
 ```
-This will trigger the installation process where you set different options for your project. You can also choose to use a js linter if you are all about the syntax-nazi..
+This will trigger the installation process where you set different options for your project. 
 
-Here's a suggested way to answer the install questions:
+
+**Here's a suggested way to answer the install questions:**
 
 ```bash
 > Manually select features
