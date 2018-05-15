@@ -13,7 +13,7 @@ user: {
   verified: false,
   name: 'Vue Newbie',
   screen_name: 'vuenewbie1337',
-  picture: {thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Vue.js_Logo.png'}
+  picture: {thumbnail: 'https://vuejs.org/images/logo.png'}
 }
 ```
 
