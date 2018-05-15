@@ -9,9 +9,9 @@ The markup below does not have former logic placed. It is supposed to help you u
 
 <div class="compose-tweet">
 
-  <avatar></avatar>
+  <user-avatar></user-avatar>
 
-  <div class="compose-tweet-content">
+  <div class="compose-tweet-content">
     <div class="compose-tweet-input-wrapper">
       <textarea placeholder="What's happening?" class="compose-tweet-input"></textarea>
 
