@@ -41,8 +41,9 @@ export default {
 ```
 
 ## 3. Pull in some resources
-- Copy the [CSS-file](../../resources/twitter-app/twitter-app.css) to the new project folder: `/css/twitter-app.css`.
-- Copy the [HTML-file](../../resources/twitter-app/index.html) and replace the content inside the `/twitter-app/index.html`
+- Copy the [CSS-file](../../resources/twitter-app/twitter-app.css) to the new project folder: `/twitter-app/src/assets/css/twitter-app.css`.
+- Import the css file in your `main.js` file: `import './assets/css/twitter-app.css';`
+- Copy the [HTML-file](../../resources/twitter-app/index.html) and replace the content inside the `/twitter-app/public/index.html`
 
 Refresh the site and hopefully you're g2g!
 
