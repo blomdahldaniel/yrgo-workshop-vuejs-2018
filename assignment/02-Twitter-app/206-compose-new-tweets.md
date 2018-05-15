@@ -108,7 +108,7 @@ getNewTweetObj (newTweetText) {
 }
 ```
 
-## What is moment..?
+## Wait a moment..?
 But wait..? What is moment? Well, I was lazy and used [moment.js](https://momentjs.com/). It is a neat javascript lib that makes handling dates easy. Just pull it in from npm and then import it. Like this
 ```bash
 yarn add moment # or 'npm install moment --save'
