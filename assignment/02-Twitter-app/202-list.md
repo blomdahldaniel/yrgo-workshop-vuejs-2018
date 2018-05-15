@@ -97,11 +97,11 @@ Once this is done, we'll have a much more "real looking twitter app"
               <!-- Print out the tweet.user.name -->
             </div>
             <div class="user-screen_name">
-              
               <!-- 
                 Print out the tweet.user.screen_name,
                 screen_name is what Twitter calls the username themselves
               -->
+              @
             </div>
             <div class="time">
                 <!-- Print out the time prop -->
