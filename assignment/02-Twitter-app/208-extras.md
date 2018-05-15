@@ -39,3 +39,5 @@ The same user may not tweet the same thing twice.. (this will be a pretty scetch
 
 You might have to create a better method that can handle the posting of tweets that are retweets and get the fake the new data from that.
 
+## Rewrite with vuex 🌶️🌶️🌶️🌶️🌶️
+This is totally the task for next week, but if you want a challange: go ahead an rewrite the application with vuex. when you create a new project with vue-cli, simply add the vuex part in the installation config.
