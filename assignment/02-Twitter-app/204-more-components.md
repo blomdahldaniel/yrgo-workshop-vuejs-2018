@@ -3,10 +3,10 @@ Previous: [203 Convert into components](./203-convert-into-components.md)
 ![You guys give up or are you ready for more?](https://media.giphy.com/media/3ofT5Mzq0fk0ts1vig/giphy.gif)
 
 # 204 More components
-You have now successfully extracted your own `<tweet>` component. Lets extract some more!
+You have now successfully extracted your own `<tweet-item>` component. Lets extract some more!
 
-## Avatar component `<avatar>`
-For the avatar image, create a component called `<avatar>` and pass the props:
+## Avatar component `<user-avatar>`
+For the avatar image, create a component called `<user-avatar>` and pass the props:
 - size="md"
 - type="square"
 - :src="tweet.user.picture.thumbnail"

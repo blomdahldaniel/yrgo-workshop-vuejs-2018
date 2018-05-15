@@ -24,11 +24,11 @@ export default {
 ```
 
 ## 2. Import the tweets dummy data
-- Copy the [tweets.js](../../resources/twitter-app/tweets.js) file into `twitter-app/static/dummy-data/tweets.js`
+- Copy the [tweets.js](../../resources/twitter-app/tweets.js) file into `twitter-app/dummy-data/tweets.js`
 - Import the tweets.js file to the `App.vue` file. After that, set the imported tweets in the vue data prop.
 
 ```javascript
-import tweets from '../static/dummy-data/tweets.js'
+import tweets from '../dummy-data/tweets.js'
 
 export default {
     name: 'app',
@@ -41,7 +41,7 @@ export default {
 ```
 
 ## 3. Pull in some resources
-- Copy the [CSS-file](../../resources/twitter-app/twitter-app.css) to the new project folder: `/static/css/twitter-app.css`.
+- Copy the [CSS-file](../../resources/twitter-app/twitter-app.css) to the new project folder: `/css/twitter-app.css`.
 - Copy the [HTML-file](../../resources/twitter-app/index.html) and replace the content inside the `/twitter-app/index.html`
 
 Refresh the site and hopefully you're g2g!
