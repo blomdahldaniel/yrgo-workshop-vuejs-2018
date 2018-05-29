@@ -32,4 +32,4 @@ Clone the github repo [nuxt-api-laravel](https://github.com/blomdahldaniel/yrgo-
 Now you are good to go, we wont spend any time going through the Laravel project but feel free to check it out later!
 
 # Next:
-[302 Frontend](./302-frontend.md)
+[303 Frontend](./303-frontend.md)

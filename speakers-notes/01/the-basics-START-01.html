@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VueJS - Workshop</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <!-- Nothing special, just some simple css -->
+    <link rel="stylesheet" href="../../resources/todo-app/todo-app.css">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+
+    <div id="vue-container">
+        Print my {{ message }}
+        <h1 v-if="showMe == true">Hello YRGO!</h1>
+        <h3 v-show="showMe == true">Todo list</h3>
+        <ul class="todo-list">
+            <li
+                v-for="t in uncompletedTodos"
+                v-bind:class="t.completed ? 'completed' : ''"
+                v-on:click="t.completed = !t.completed"
+            >
+                {{ t.text }}
+            </li>
+        <ul>
+    </div>
+
+    <div>
+        <h1 v-bind:title="message" v-bind:class="important == true ? 'important' : ''">
+            {{ message }}
+            <small>{{ newTodoText }}</small>
+        </h1>
+        <h3 v-if="showMe">En todo app</h3>
+
+        <ul class="todo-list">
+            <li class="add-todo">
+
+                <input
+                    type="text"
+                    v-model="newTodoText"
+                    v-on:keyup.enter="addTodo"
+                    v-on:keyup.esc="newTodoText = ''"
+                    placeholder="Lägg till en ny todo"
+                >
+
+            </li>
+            <li
+                v-for="t in uncompletedTodos"
+                v-bind:class="t.completed ? 'completed' : ''"
+                v-on:click="t.completed = !t.completed"
+            >
+                {{ t.text }}
+            </li>
+            <li v-if="uncompletedTodos.length == 0" class="empty-placeholder">
+                Du har inga fler todos!
+                <br>
+                <small>Njut så länge det varar</small>
+            </li>
+        </ul>
+
+        <h3>Avslutade:</h3>
+        <ul>
+            <li
+                v-for="t in completedTodos"
+                v-bind:class="t.completed ? 'completed' : ''"
+                v-on:click="t.completed = !t.completed"
+            >
+                {{ t.text }}
+            </li>
+        </ul>
+    </div>
+    <script>
+        var app = new Vue ({
+            el: '#app',
+            data: {
+                message: 'Hello YRGO!',
+                link: 'https://google.com',
+                important: true,
+                showMe: true,
+                newTodoText: '',
+                todos: [
+                    {completed: true, text: 'Äta frukost'},
+                    {completed: false, text: 'Workshop på YRGO'},
+                    {completed: false, text: 'Äta veggo med Vincent'},
+                    {completed: false, text: 'Mysa med min dotter'},
+                    {completed: false, text: 'Pilla navelludd'},
+                ]
+            },
+            computed: {
+                uncompletedTodos () {
+                    return this.todos.filter( t => !t.completed )
+                },
+                completedTodos () {
+                    return this.todos.filter( t => t.completed )
+                }
+            },
+            methods: {
+                addTodo () {
+
+                    this.newTodoText = this.newTodoText.trim()
+
+                    if (this.newTodoText == '') return;
+
+                    this.todos.push({ completed: false, text: this.newTodoText })
+                    this.newTodoText = ''
+                }
+            }
+        })
+    </script>
+</body>
+</html>
