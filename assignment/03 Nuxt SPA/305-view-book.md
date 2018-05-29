@@ -22,7 +22,7 @@ asyncData ({app, params}) {
 ```
 
 
-Add them to the navbar and make sure to add a  `<nuxt-link>` that works.
+Add a  `<nuxt-link>` in the `<book-item>` that routes to `'/books/' + book.id`
 
 ## 1. Display the book info
 Follow the instructions in the markup to add the vue extra flavor to make things come alive!
