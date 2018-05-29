@@ -1,6 +1,6 @@
 Previous: [303 Frontend](./303-frontend.md)
 
-# 303 My Books App
+# 304 My Books App
 
 The app will contain these different views:
 - **My Books**

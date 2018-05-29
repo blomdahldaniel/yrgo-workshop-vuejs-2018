@@ -1,5 +1,5 @@
 # 300 - Twitter with VueJS
-![Twitter](http://dobloit.se/images/workshop-yrgo/twitter.png)
+![Twitter](http://dobloit.se/images/workshop-yrgo/books-app.jpg)
 
 In this assignment you will be creating your own little Twitter app. The HTML and CSS is provided for you, what is left to do is to sugarcoat the HTML with some powerful and descriptive VueJS.
 
