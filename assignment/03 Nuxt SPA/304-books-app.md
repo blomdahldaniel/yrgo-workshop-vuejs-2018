@@ -17,8 +17,8 @@ Add it to the section that is rendered only if the user is authenticated.
 
 ### Redirect to `/books`
 From the `signin.vue` and the `signup.vue` make sure that the user is sent to the `/books` route when loged in the first time.
-`this.$route.query.redirect || '/books'`
-`this.$router.push('/books')`
+`this.$route.query.redirect || 'books'`
+`this.$router.push('books')`
 
 
 ## 1. Fetch all my books
