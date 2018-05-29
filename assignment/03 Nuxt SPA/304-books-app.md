@@ -29,7 +29,7 @@ Fetch all books from the backend through nuxt `asyncData()` method.
 ```JavaScript
 // .....
 asyncData ({app}) {
-  return app.$axios.get('/book')
+  return app.$axios.get('/books')
     .then(res => {
       return { books: res.data }
     })
