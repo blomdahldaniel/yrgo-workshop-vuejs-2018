@@ -103,4 +103,4 @@ Create a component called `<book-item>` and extract the above book item into thi
 
 
 # Next:
-[304 View book](./304-view-book.md)
+[305 View book](./305-view-book.md)
