@@ -16,7 +16,7 @@ Now lets open up the `nuxt.config.js` and take a look.
 - Take a look at the `head: {}` object. Pretty similar to how a html `<head>` is structured
 - The `css` is pulled in from the `/css` directory. However you can pull in directly from your `node_modules` as well if you would like to. You can also point to cdn css files if you instead of `css` add another object to the `head.link` array.
 - Next some middleware, plugins and modules are pulled in to do its magic
-- **IMPORTANT**  make sure to add your correct backend domain here, if you run `php arisan serve` on localhost port 8000 then this is correct for you:
+- **IMPORTANT**  make sure to add your correct backend domain here, if you run `php artisan serve` on localhost port 8000 then this is correct for you:
 
 ```
 axios: { baseURL: 'http://127.0.0.1:8000/api/v1'},
